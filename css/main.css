@@ -22,9 +22,9 @@ body {
   margin-top: 1.5rem;
 }
 
-article {
+article p {
   max-width: 43em;
-  font-family: "Crimson", serif;
+  font-family: "Crimson Text", serif;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -33,23 +33,28 @@ article h1 {
   font-weight: normal;
   margin-bottom: 0;
   font-size: 1.5rem;
+  color: #000;
+  margin-top: 1rem;
 }
 
 article header {
   border-bottom: 1px solid #999;
 }
 
-p {
-  font-family: "Crimson", serif;
-  font-size: .9rem;
-  line-height: 1.5;
+article > p:first-child {
+  border-bottom: 1px solid #999;
+  font-family: "Crimson Text", serif;
+  font-size: 1rem;
+  margin-top: 1.8rem;
+  color: #000;
+  line-height: .8;
 }
 
 ol {
-  font-family: "Crimson", serif;
+  font-family: "Crimson Text", serif;
   font-size: .9rem;
   line-height: 1.5;
-  padding: left: 1rem;
+  padding-left: 1rem;
 }
 
 
@@ -58,6 +63,7 @@ article header p {
   margin-top: 0;
   font-size: 1rem;
   line-height: 1.5;
+  color: #000;
 }
 
 article > p:last-child {
@@ -65,17 +71,31 @@ article > p:last-child {
 }
 
 blockquote {
+  font-family: "Crimson Text", serif;
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  margin-left: 0;
 }
 
 .quote {
   color: #999;
 }
 
-margin
-padding
-font
-font-size
-line-height
+@media only screen and (min-width: 38em) {
+
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
+
+}
